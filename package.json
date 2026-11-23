@@ -1,0 +1,13 @@
+{
+  "name": "salt-electrical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SALT Electrical website (static HTML + Tailwind CSS)",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
